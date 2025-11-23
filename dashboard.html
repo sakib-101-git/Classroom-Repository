@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - ClassRepo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="app-page">
+
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo">
+                <i class="fas fa-book-open"></i> CLASSREPO
+            </div>
+            <div class="user-profile">
+                <i class="fas fa-user-circle"></i>
+                <span>Jane Doe</span>
+                <span class="user-role">Student</span>
+            </div>
+        </header>
+        
+        <div class="app-body">
+            <nav class="sidebar">
+                <ul>
+                    <li><a href="#"><i class="fas fa-th-large"></i> Dashboard</a></li>
+                    <li><a href="#" class="active"><i class="fas fa-book"></i> My Courses</a></li>
+                    <li><a href="#"><i class="fas fa-tasks"></i> Assignments</a></li>
+                    <li><a href="#"><i class="fas fa-cog"></i> Account Settings</a></li>
+                </ul>
+            </nav>
+            
+            <main class="main-content">
+                <h2>My Courses</h2>
+                
+                <div class="course-grid">
+                    <a href="course.html" style="text-decoration: none; color: inherit; display: block;">
+
+                        <div class="course-card" style="--course-color: #007BFF;">
+                            <div class="card-header">
+                                <div class="course-info">
+                                <h3>WEB-301: Web Development</h3>
+                                <span>Instructor: Dr. Smith</span>
+                            </div>
+
+                            <div class="course-icon">
+                            <i class="fas fa-code"></i>
+                            <span class="notification-badge">4</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="progress-bar">
+                                <span style="width: 70%;"></span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <span>45 Files</span>
+                        </div>
+                    </div>
+    
+                    </a>
+                    
+                    <div class="course-card" style="--course-color: #28a745;">
+                        <div class="card-header">
+                            <div class="course-info">
+                                <h3>MATH-205: Calculus II</h3>
+                                <span>Instructor: Prof. Lee</span>
+                            </div>
+                            <div class="course-icon">
+                                <i class="fas fa-calculator"></i>
+                                <span class="tag-badge"><i class="fas fa-check"></i></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="progress-bar">
+                                <span style="width: 90%;"></span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <span>30 Files</span>
+                        </div>
+                    </div>
+                    
+                    <div class="course-card" style="--course-color: #fd7e14;">
+                        <div class="card-header">
+                            <div class="course-info">
+                                <h3>CS-101: Intro to Programming</h3>
+                                <span>Instructor: Mrs. Khan</span>
+                            </div>
+                            <div class="course-icon">
+                                <i class="fas fa-laptop"></i>
+                                <span class="tag-badge blue"><i class="fas fa-flag"></i></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="progress-bar">
+                                <span style="width: 45%;"></span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <span>60 Files</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </main>
+        </div>
+    </div>
+
+</body>
+</html>
