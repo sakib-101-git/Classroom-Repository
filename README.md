@@ -1,4 +1,4 @@
-﻿#📚 Classroom Repository Website#
+﻿# Classroom Repository Website
 
 A simple and efficient Classroom Repository Web Application built with HTML, CSS, JavaScript, and Node.js.
 This project allows teachers and students to upload, download, and manage classroom materials through a clean and responsive interface.
@@ -40,4 +40,5 @@ Below are some previews of the Classroom Repository Website.
 These screenshots showcase the interface, file upload system, and repository layout.
 
 ![alt text](<WhatsApp Image 2025-10-18 at 23.54.30_822c149f.jpg>) ![alt text](<WhatsApp Image 2025-10-18 at 23.54.30_9451dbbf.jpg>) ![alt text](<WhatsApp Image 2025-10-18 at 23.54.30_c40cfd76.jpg>)
+
 
